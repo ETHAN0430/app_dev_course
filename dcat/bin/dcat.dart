@@ -1,6 +1,6 @@
 // dart compile exe bin/dcat.dart
 // cp bin/dcat.exe /usr/bin/cat
-// dart 
+// dcat [-n] path
 import 'dart:convert';
 import 'dart:io';
 
