@@ -25,7 +25,9 @@ Future<void> rm(List<String> paths, {bool force = false}) async {
         var time = new DateTime.now();
         var fileName = path.split("/").last;
         if (!force) {
-          await file.copy('/workspaces/app_dev_course/recycle_bin/${time}_${fileName}');
+          // codespace await file.copy('/workspaces/app_dev_course/recycle_bin/${time}_${fileName}');
+          // gitpod    await file.copy('/workspace/app_dev_course/recycle_bin/${time}_${fileName}');
+          await file.copy('/workspace/app_dev_course/recycle_bin/${time}_${fileName}');
         }
         await file.delete();
 
