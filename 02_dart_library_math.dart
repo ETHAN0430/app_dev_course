@@ -1,15 +1,12 @@
 import 'dart:math';
 
-void main() {
-  math_and_random();
-}
 
 // 数学和随机数 （https://dart.cn/guides/libraries/library-tour#dartmath---math-and-random）
 void math_and_random() {
   print('\n');
-  print('#' * 40);
-  print('数学和随机数');
-  print('#' * 40);
+  print('=' * 40);
+  print('Math and Random');
+  print('=' * 40);
 
   // Cosine
   assert(cos(pi) == -1.0);
@@ -37,4 +34,8 @@ void math_and_random() {
   print('nextInt: $value2');
   var value3 = random.nextBool(); // true or false
   print('nextBool: $value3');
+}
+
+void main() {
+  math_and_random();
 }

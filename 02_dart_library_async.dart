@@ -10,15 +10,15 @@ Future<String> fetchUserOrder() =>
     // Imagine that this function is
     // more complex and slow.
     Future.delayed(
-      const Duration(seconds: 2),
-      () => 'Large Latte',
+      const Duration(seconds: 1),
+      () => 'Very Large Latte',
     );
 
 Future<void> main() async {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('异步编程');
-  print('#' * 40);
+  print('=' * 40);
   print('Fetching user order...');
   print(await createOrderMessage());
 }

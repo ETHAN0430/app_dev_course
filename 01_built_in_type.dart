@@ -1,12 +1,3 @@
-void main(){
-  numbers();
-  strings();
-  booleans();
-  runes_and_grapheme_clusters();
-
-}
-
-
 //int and double（https://dart.cn/guides/language/language-tour#numbers）
 void numbers(){
   //定义整数
@@ -149,8 +140,15 @@ void maps(){
 void runes_and_grapheme_clusters(){
   
 
-  var hi = 'Hi 🇩🇰';
+  var hi = 'Hi cyf';
   print(hi);
   print('The end of the string: ${hi.substring(hi.length - 1)}');
 
+}
+
+void main(){
+  numbers();
+  strings();
+  booleans();
+  runes_and_grapheme_clusters();
 }

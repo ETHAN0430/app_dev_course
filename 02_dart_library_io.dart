@@ -1,18 +1,14 @@
 import 'dart:io';
 import 'dart:async';
 
-//输入输出（https://dart.cn/guides/libraries/library-tour#dartio）
-void main() {
-  fad();
-  cs();
-}
+
 
 //文件和目录（https://dart.cn/guides/libraries/library-tour#files-and-directories）
 void fad() async {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('文件和目录');
-  print('#' * 40);
+  print('=' * 40);
   //文本形式读取
   var config = File('config.txt');
 
@@ -48,7 +44,13 @@ void fad() async {
 //服务器与HTTP（https://dart.cn/guides/libraries/library-tour#http-clients-and-servers）
 void cs() async {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('HTTP 客户端和服务器');
-  print('#' * 40);
+  print('=' * 40);
+}
+
+//输入输出（https://dart.cn/guides/libraries/library-tour#dartio）
+void main() {
+  fad();
+  cs();
 }

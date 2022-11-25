@@ -1,9 +1,9 @@
 //print to the console(https://dart.cn/guides/libraries/library-tour#printing-to-the-console)
 void ptc() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('字符串');
-  print('#' * 40);
+  print('=' * 40);
 
   //输出
   var anObject = 'string interpolation';
@@ -23,9 +23,9 @@ void numbers() {
 //字符和正则表达式（https://dart.cn/guides/libraries/library-tour#strings-and-regular-expressions）
 void sare() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('字符和正则表达式');
-  print('#' * 40);
+  print('=' * 40);
 
   //在字符中搜索
   // Check whether a string contains another string.
@@ -61,9 +61,9 @@ void sare() {
 //集合（https://dart.cn/guides/libraries/library-tour#collections）
 void collects() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('集合');
-  print('#' * 40);
+  print('=' * 40);
 
   //list
   // Create an empty list of strings.
@@ -162,9 +162,9 @@ void collects() {
 //URIs（https://dart.cn/guides/libraries/library-tour#uris）
 void uris() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('URI');
-  print('#' * 40);
+  print('=' * 40);
   var uri = 'https://example.org/api?foo=some message';
 
   var encoded = Uri.encodeFull(uri);
@@ -183,9 +183,9 @@ void uris() {
 //日期和时间(https://dart.cn/guides/libraries/library-tour#dates-and-times)
 void dat() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('时间和日期');
-  print('#' * 40);
+  print('=' * 40);
   // Get the current date and time.
   var now = DateTime.now();
 
@@ -202,7 +202,7 @@ void dat() {
   y2k = DateTime.fromMillisecondsSinceEpoch(946684800000, isUtc: true);
 
 // Parse an ISO 8601 date.
-  y2k = DateTime.parse('2000-01-01T00:00:00Z');
+  y2k = DateTime.parse('2021-11-25T16:00:00Z');
   print(y2k);
 }
 
@@ -217,9 +217,9 @@ class Line implements Comparable<Line> {
 
 void uc() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('工具类');
-  print('#' * 40);
+  print('=' * 40);
 
   var short = const Line(1);
   var long = const Line(100);
@@ -239,9 +239,9 @@ class FooException implements Exception {
 
 void excepts() {
   print('\n');
-  print('#' * 40);
+  print('=' * 40);
   print('异常');
-  print('#' * 40);
+  print('=' * 40);
 }
 
 void main() {
